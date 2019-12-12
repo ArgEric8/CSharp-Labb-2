@@ -66,26 +66,24 @@ namespace Labb2
         static void secondChoice ()
         {
             Console.WriteLine("\nAnge fem tal");
-                int[] femTal = new int[5];
+                double[] femTal = new double[5];
                 double sum = 0;
 
                 for (int i = 0; i < femTal.Length; i++)
                 {
-                    
-                    femTal[i] = Console.ReadLine();
-                    if (double.TryParse(femTal[i], out double result))
+                    if (double.TryParse(Console.ReadLine(), out femTal[i]))
                         {
-                            double.Parse(femTal[i]);
                             sum += femTal[i];
                         }
                     else
                     {
                         i--;
+                        Console.WriteLine("Inga bokstäver, tack.");
                     }
                 }
 
-                int högstVärde = femTal[0];
-                int lägstVärde = femTal[0];
+                double högstVärde = femTal[0];
+                double lägstVärde = femTal[0];
                 for (int j = 0; j < femTal.Length; j++)
                     {
                         if (högstVärde < femTal[j])
@@ -99,7 +97,7 @@ namespace Labb2
                         }
                     }
 
-                int medelVärde = sum / femTal.Length;
+                double medelVärde = sum / femTal.Length;
                 Console.WriteLine("\nSumman är {0}.", sum);
                 Console.WriteLine("Medelvärdet är {0}.", medelVärde);
                 Console.WriteLine("Högsta värdet är {0} och lägsta värdet är {1}.", högstVärde, lägstVärde);
