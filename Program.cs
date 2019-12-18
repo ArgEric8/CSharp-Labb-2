@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Labb2
 {
@@ -7,12 +8,13 @@ namespace Labb2
         static void Main(string[] args)
         {
             int userInput = 0;
-            while (userInput != 4)
+            while (userInput != 5)
             {
             Console.WriteLine("\n1. Visa gångertabell");
             Console.WriteLine("2. Räkna ut summan och medelvärdet av tal");
-            Console.WriteLine("3. Tio slumpmässiga tal");
-            Console.WriteLine("4. Avsluta");
+            Console.WriteLine("3. Tio slumpmässiga tal");            
+            Console.WriteLine("4. Personer");
+            Console.WriteLine("5. Avsluta");
             Console.WriteLine("\nVälj ett alternativ!");
 
             userInput = Int32.Parse(Console.ReadLine());
@@ -38,6 +40,12 @@ namespace Labb2
                 // Fjärde valet
                 else if (userInput == 4)
                 {
+                    fourthChoice();
+                }
+
+                // Femte valet
+                else if (userInput == 5)
+                {
                     Console.WriteLine("\nAvslutar...");
                     break;
                 }
@@ -49,6 +57,7 @@ namespace Labb2
             }
         }
 
+        // Metoder
         static void firstChoice ()
         {
             Console.WriteLine("\nGångertabellen:");
@@ -98,8 +107,8 @@ namespace Labb2
                     }
 
                 double medelVärde = sum / femTal.Length;
-                Console.WriteLine("\nSumman är {0}.", sum);
-                Console.WriteLine("Medelvärdet är {0}.", medelVärde);
+                Console.WriteLine("\nSumman är {0:0.#}.", sum);
+                Console.WriteLine("Medelvärdet är {0:0.##}.", medelVärde);
                 Console.WriteLine("Högsta värdet är {0} och lägsta värdet är {1}.", högstVärde, lägstVärde);
         }
 
@@ -120,6 +129,43 @@ namespace Labb2
                     Array.Reverse(randomTal);
                     Console.WriteLine("{0}", randomTal[i]);
                     }
+        }
+
+        static void fourthChoice ()
+        {
+            List<Person> people = new List<Person>();
+
+            Person person1 = new Person();
+            Console.WriteLine("Skriv in namn");
+            person1.setFullName(Console.ReadLine());
+            Console.WriteLine("Skriv in ålder");
+            person1.setAge(Convert.ToInt32(Console.ReadLine()));
+            person1.setGender();
+
+            int anotherPerson = 1;
+            while (anotherPerson == 1)
+            Console.WriteLine("Vill du lägga till fler?");
+            Console.WriteLine("1. Ja");
+            Console.WriteLine("2. Nej");
+            anotherPerson = Convert.ToInt32(Console.ReadLine());
+
+            if (anotherPerson == 1)
+            {
+                for (int i = 1; i < people.Count; i++)
+                {
+                    Person person[i] = new Person();
+                }
+            }
+            Person person2 = new Person();
+
+            people.Add(person1);
+            people.Add(person2);
+            
+
+            for (int i = 0; i < people.Count; i++)
+            {
+                people[i].getPersonDetails();
+            }
         }
     }
 }
