@@ -136,35 +136,34 @@ namespace Labb2
             List<Person> people = new List<Person>();
 
             Person person1 = new Person();
-            Console.WriteLine("Skriv in namn");
-            person1.setFullName(Console.ReadLine());
-            Console.WriteLine("Skriv in ålder");
-            person1.setAge(Convert.ToInt32(Console.ReadLine()));
-            person1.setGender();
+            
+            Person person2 = new Person(Console.ReadLine(), Convert.ToInt32(Console.ReadLine()));
 
             int anotherPerson = 1;
             while (anotherPerson == 1)
-            Console.WriteLine("Vill du lägga till fler?");
-            Console.WriteLine("1. Ja");
-            Console.WriteLine("2. Nej");
-            anotherPerson = Convert.ToInt32(Console.ReadLine());
-
-            if (anotherPerson == 1)
             {
-                for (int i = 1; i < people.Count; i++)
+                Console.WriteLine("Skriv in namn");
+                person1.setFullName(Console.ReadLine());
+                Console.WriteLine("Skriv in ålder");
+                person1.setAge(Convert.ToInt32(Console.ReadLine()));
+                person1.setGender();
+
+                if (anotherPerson == 1)
                 {
-                    Person person[i] = new Person();
+                    Console.WriteLine("Vill du lägga till fler?");
+                    Console.WriteLine("1. Ja");
+                    Console.WriteLine("2. Nej");
+                    anotherPerson = Convert.ToInt32(Console.ReadLine());
                 }
-            }
-            Person person2 = new Person();
 
-            people.Add(person1);
-            people.Add(person2);
-            
+                people.Add(person1);
+                people.Add(person2);
+                
 
-            for (int i = 0; i < people.Count; i++)
-            {
-                people[i].getPersonDetails();
+                for (int i = 0; i < people.Count; i++)
+                {
+                    people[i].getPersonDetails();
+                }
             }
         }
     }

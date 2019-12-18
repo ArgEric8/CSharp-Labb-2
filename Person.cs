@@ -9,11 +9,11 @@ namespace Labb2
         protected string yourGender = "kön ej angivet";
 
         public Person() {}
-        public Person(string fullName, int age, string gender)
+        public Person(string fullName, int age)
         {
-            yourName = fullName;
-            yourAge = age;
-            yourGender = gender;
+            setFullName(fullName);
+            setAge(age);
+            setGender();
         }
         public void setFullName(string fullName)
         {
