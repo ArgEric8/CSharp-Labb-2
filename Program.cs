@@ -159,7 +159,6 @@ namespace Labb2
                 people.Add(person1);
                 people.Add(person2);
                 
-
                 for (int i = 0; i < people.Count; i++)
                 {
                     people[i].getPersonDetails();
