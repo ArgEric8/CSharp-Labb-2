@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Madco\\Documents\\GitHub\\C# - Labb 2\\Labb2.csproj",
+      "projectUniqueName": "C:\\Files\\School\\Program\\C# - Labb 2\\Labb2.csproj",
       "projectName": "Labb2",
-      "projectPath": "C:\\Users\\Madco\\Documents\\GitHub\\C# - Labb 2\\Labb2.csproj",
+      "projectPath": "C:\\Files\\School\\Program\\C# - Labb 2\\Labb2.csproj",
       "packagesPath": "C:\\Users\\Madco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Madco\\Documents\\GitHub\\C# - Labb 2\\obj\\",
+      "outputPath": "C:\\Files\\School\\Program\\C# - Labb 2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

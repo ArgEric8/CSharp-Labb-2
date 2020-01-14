@@ -20,3 +20,14 @@ C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.Assemb
 C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.AssemblyInfo.cs
 C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.dll
 C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.pdb
+C:\Files\School\Program\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.exe
+C:\Files\School\Program\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.deps.json
+C:\Files\School\Program\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.runtimeconfig.json
+C:\Files\School\Program\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.runtimeconfig.dev.json
+C:\Files\School\Program\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.dll
+C:\Files\School\Program\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.pdb
+C:\Files\School\Program\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.csprojAssemblyReference.cache
+C:\Files\School\Program\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.AssemblyInfoInputs.cache
+C:\Files\School\Program\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.AssemblyInfo.cs
+C:\Files\School\Program\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.dll
+C:\Files\School\Program\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.pdb

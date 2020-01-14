@@ -17,8 +17,9 @@ namespace Labb2
             Console.WriteLine("5. Avsluta");
             Console.WriteLine("\nVälj ett alternativ!");
 
-            userInput = Int32.Parse(Console.ReadLine());
-
+            bool letter = int.TryParse(Console.ReadLine(), out userInput);
+            if (letter == true)
+            {
                 // Första valet
                 if (userInput == 1)
                 {
@@ -26,33 +27,33 @@ namespace Labb2
                 }
 
                 // Andra valet
-                else if (userInput == 2)
+                if (userInput == 2)
                 {
                     secondChoice();
                 }
 
                 // Tredje valet
-                else if (userInput == 3)
+                if (userInput == 3)
                 {
                     thirdChoice();
                 }
 
                 // Fjärde valet
-                else if (userInput == 4)
+                if (userInput == 4)
                 {
                     fourthChoice();
                 }
 
                 // Femte valet
-                else if (userInput == 5)
+                if (userInput == 5)
                 {
                     Console.WriteLine("\nAvslutar...");
                     break;
                 }
-
-                else
+            }
+            else
                 {
-                    Console.WriteLine("Error, börja om!");
+                    Console.WriteLine("Inga bokstäver tillåts");
                 }
             }
         }
@@ -125,9 +126,9 @@ namespace Labb2
 
                     for (int i = 0; i < randomTal.Length; i++)
                     {
-                    Array.Sort(randomTal);
-                    Array.Reverse(randomTal);
-                    Console.WriteLine("{0}", randomTal[i]);
+                        Array.Sort(randomTal);
+                        Array.Reverse(randomTal);
+                        Console.WriteLine("{0}", randomTal[i]);
                     }
         }
 
