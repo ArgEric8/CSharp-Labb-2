@@ -9,3 +9,14 @@ F:\OLD D\Eric\VUXET\skola\C# - Labb 2\Labb2\obj\Debug\netcoreapp3.0\Labb2.Assemb
 F:\OLD D\Eric\VUXET\skola\C# - Labb 2\Labb2\obj\Debug\netcoreapp3.0\Labb2.AssemblyInfo.cs
 F:\OLD D\Eric\VUXET\skola\C# - Labb 2\Labb2\obj\Debug\netcoreapp3.0\Labb2.dll
 F:\OLD D\Eric\VUXET\skola\C# - Labb 2\Labb2\obj\Debug\netcoreapp3.0\Labb2.pdb
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.exe
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.deps.json
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.runtimeconfig.json
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.runtimeconfig.dev.json
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.dll
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\bin\Debug\netcoreapp3.0\Labb2.pdb
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.csprojAssemblyReference.cache
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.AssemblyInfoInputs.cache
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.AssemblyInfo.cs
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.dll
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp3.0\Labb2.pdb
