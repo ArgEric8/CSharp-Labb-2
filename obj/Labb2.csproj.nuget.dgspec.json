@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\OLD D\\Eric\\VUXET\\skola\\C# - Labb 2\\Labb2\\Labb2.csproj": {}
+    "C:\\Users\\Madco\\Documents\\GitHub\\C# - Labb 2\\Labb2.csproj": {}
   },
   "projects": {
-    "F:\\OLD D\\Eric\\VUXET\\skola\\C# - Labb 2\\Labb2\\Labb2.csproj": {
+    "C:\\Users\\Madco\\Documents\\GitHub\\C# - Labb 2\\Labb2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\OLD D\\Eric\\VUXET\\skola\\C# - Labb 2\\Labb2\\Labb2.csproj",
+        "projectUniqueName": "C:\\Users\\Madco\\Documents\\GitHub\\C# - Labb 2\\Labb2.csproj",
         "projectName": "Labb2",
-        "projectPath": "F:\\OLD D\\Eric\\VUXET\\skola\\C# - Labb 2\\Labb2\\Labb2.csproj",
+        "projectPath": "C:\\Users\\Madco\\Documents\\GitHub\\C# - Labb 2\\Labb2.csproj",
         "packagesPath": "C:\\Users\\Madco\\.nuget\\packages\\",
-        "outputPath": "F:\\OLD D\\Eric\\VUXET\\skola\\C# - Labb 2\\Labb2\\obj\\",
+        "outputPath": "C:\\Users\\Madco\\Documents\\GitHub\\C# - Labb 2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

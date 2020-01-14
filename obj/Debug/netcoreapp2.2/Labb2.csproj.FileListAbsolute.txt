@@ -1,0 +1,32 @@
+H:\CSharp-Labb-2-master\bin\Debug\netcoreapp2.2\Labb2.deps.json
+H:\CSharp-Labb-2-master\bin\Debug\netcoreapp2.2\Labb2.runtimeconfig.json
+H:\CSharp-Labb-2-master\bin\Debug\netcoreapp2.2\Labb2.runtimeconfig.dev.json
+H:\CSharp-Labb-2-master\bin\Debug\netcoreapp2.2\Labb2.dll
+H:\CSharp-Labb-2-master\bin\Debug\netcoreapp2.2\Labb2.pdb
+H:\CSharp-Labb-2-master\obj\Debug\netcoreapp2.2\Labb2.csprojAssemblyReference.cache
+H:\CSharp-Labb-2-master\obj\Debug\netcoreapp2.2\Labb2.csproj.CoreCompileInputs.cache
+H:\CSharp-Labb-2-master\obj\Debug\netcoreapp2.2\Labb2.AssemblyInfoInputs.cache
+H:\CSharp-Labb-2-master\obj\Debug\netcoreapp2.2\Labb2.AssemblyInfo.cs
+H:\CSharp-Labb-2-master\obj\Debug\netcoreapp2.2\Labb2.dll
+H:\CSharp-Labb-2-master\obj\Debug\netcoreapp2.2\Labb2.pdb
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\bin\Debug\netcoreapp2.2\Labb2.deps.json
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\bin\Debug\netcoreapp2.2\Labb2.runtimeconfig.json
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\bin\Debug\netcoreapp2.2\Labb2.runtimeconfig.dev.json
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\bin\Debug\netcoreapp2.2\Labb2.dll
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\bin\Debug\netcoreapp2.2\Labb2.pdb
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp2.2\Labb2.csprojAssemblyReference.cache
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp2.2\Labb2.AssemblyInfoInputs.cache
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp2.2\Labb2.AssemblyInfo.cs
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp2.2\Labb2.dll
+C:\Users\Madco\Documents\GitHub\C# - Labb 2\obj\Debug\netcoreapp2.2\Labb2.pdb
+H:\Documents\GitHub\CSharp-Labb-2\bin\Debug\netcoreapp2.2\Labb2.deps.json
+H:\Documents\GitHub\CSharp-Labb-2\bin\Debug\netcoreapp2.2\Labb2.runtimeconfig.json
+H:\Documents\GitHub\CSharp-Labb-2\bin\Debug\netcoreapp2.2\Labb2.runtimeconfig.dev.json
+H:\Documents\GitHub\CSharp-Labb-2\bin\Debug\netcoreapp2.2\Labb2.dll
+H:\Documents\GitHub\CSharp-Labb-2\bin\Debug\netcoreapp2.2\Labb2.pdb
+H:\Documents\GitHub\CSharp-Labb-2\obj\Debug\netcoreapp2.2\Labb2.csprojAssemblyReference.cache
+H:\Documents\GitHub\CSharp-Labb-2\obj\Debug\netcoreapp2.2\Labb2.csproj.CoreCompileInputs.cache
+H:\Documents\GitHub\CSharp-Labb-2\obj\Debug\netcoreapp2.2\Labb2.AssemblyInfoInputs.cache
+H:\Documents\GitHub\CSharp-Labb-2\obj\Debug\netcoreapp2.2\Labb2.AssemblyInfo.cs
+H:\Documents\GitHub\CSharp-Labb-2\obj\Debug\netcoreapp2.2\Labb2.dll
+H:\Documents\GitHub\CSharp-Labb-2\obj\Debug\netcoreapp2.2\Labb2.pdb
