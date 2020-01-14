@@ -1,44 +1,71 @@
 using System;
+using System.Globalization;
 
 namespace Labb2
 {
+    struct hairDetails
+        {
+            public string color;
+            public int length;
+        }
     class Person
     {
-        protected string yourName = "Namnlös";
-        protected int yourAge = 99;
-        protected string yourGender = "kön ej angivet";
+        private string yourName;
+        protected int yourAge;
+        protected string yourGender;
+        protected string yourEyeColor;
+        protected hairDetails yourHair;
+        DateTime yourBirthday = new DateTime();
 
-        public Person() {}
-        public Person(string fullName, int age)
-        {
-            yourName = fullName;
-            yourAge = age;
-            setGender();
-        }
+        public Person() {Console.WriteLine("\nPerson skapad");}
 
         public void setPersonDetails()
         {
-            Console.WriteLine("Skriv in namn");
-            string fullName = Console.ReadLine();
-            Console.WriteLine("Skriv in ålder");
-            int age = Convert.ToInt32(Console.ReadLine());
-            yourName = fullName;
-            yourAge = age;
-            setGender();
+            setName();
+            setAge();
+            setHair();
+            setGender(); 
+            setBirthday();  
+            setEyeColor();
         }
 
         public void getPersonDetails()
         {
-            Console.WriteLine("{0} är {1} år ({2}).", yourName, yourAge, yourGender);
-        }
-        public void setFullName(string fullName)
-        {
-            yourName = fullName;
+            Console.WriteLine("{0} är {1} år ({2}), född {3}.", yourName, yourAge, yourGender, yourBirthday.ToString("yy-MMM-dd"));
+            Console.WriteLine("{0} hårfärg och {1} cm långt med {2} ögon.", yourHair.color, yourHair.length, yourEyeColor);
         }
 
-        public void setAge(int age)
+        public void setBirthday() {
+            Console.WriteLine("Ange födelsedag yy-mm-dd");
+            string birthdayInput = Console.ReadLine();
+            yourBirthday = DateTime.ParseExact(birthdayInput, "yyMMdd", CultureInfo.InvariantCulture);
+        }
+        public void setHair() {
+            Console.WriteLine("Ange hårfärg");
+            yourHair.color = Console.ReadLine();
+            Console.WriteLine("Ange hårlängd i cm");
+            yourHair.length = int.Parse(Console.ReadLine());
+        }
+        // public string Yourname { get => yourName; set => yourName = value; }
+        public void setName()
         {
+            Console.WriteLine("Skriv in namn");
+            string name = Console.ReadLine();
+            yourName = name;
+        }
+
+        public void setAge()
+        {
+            Console.WriteLine("Skriv in ålder");
+            int age = Convert.ToInt32(Console.ReadLine());
             yourAge = age;
+        }
+
+        public void setEyeColor()
+        {
+            Console.WriteLine("Ange ögonfärg");
+            string eyeColor = Console.ReadLine();
+            yourEyeColor = eyeColor;
         }
 
         public void setGender()
@@ -76,15 +103,6 @@ namespace Labb2
                 }
             }
             Console.WriteLine("");
-        }
-
-        public void hairFeatures()
-        {
-            Console.WriteLine("Hårlängd?");
-            int hairLength = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Hårfärg?");
-            string hairColor = Console.ReadLine();
         }
     }
 }

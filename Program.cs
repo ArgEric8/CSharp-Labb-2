@@ -13,7 +13,7 @@ namespace Labb2
             Console.WriteLine("\n1. Visa gångertabell");
             Console.WriteLine("2. Räkna ut summan och medelvärdet av tal");
             Console.WriteLine("3. Tio slumpmässiga tal");            
-            Console.WriteLine("4. Personer");
+            Console.WriteLine("4. Lägg till personer");
             Console.WriteLine("5. Avsluta");
             Console.WriteLine("\nVälj ett alternativ!");
 
@@ -151,10 +151,15 @@ namespace Labb2
                 }
             }
 
-            for (int i = 0; i < people.Count; i++)
-                {
-                    people[i].getPersonDetails();
+            // Console.WriteLine("1. Visa lista på alla personer");
+            // Console.WriteLine("2. Gå vidare");
+            // int showlist = int.Parse(Console.ReadLine());
+            // if (showlist == 1) {
+                for (int i = 0; i < people.Count; i++)
+                    {
+                        people[i].getPersonDetails();
                 }
+            // }
         }
     }
 }
