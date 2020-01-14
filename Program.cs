@@ -134,19 +134,11 @@ namespace Labb2
         static void fourthChoice ()
         {
             List<Person> people = new List<Person>();
-
-            Person person1 = new Person();
-            
-            Person person2 = new Person(Console.ReadLine(), Convert.ToInt32(Console.ReadLine()));
-
             int anotherPerson = 1;
             while (anotherPerson == 1)
             {
-                Console.WriteLine("Skriv in namn");
-                person1.setFullName(Console.ReadLine());
-                Console.WriteLine("Skriv in ålder");
-                person1.setAge(Convert.ToInt32(Console.ReadLine()));
-                person1.setGender();
+                Person person1 = new Person();
+                person1.setPersonDetails();
 
                 if (anotherPerson == 1)
                 {
@@ -154,16 +146,14 @@ namespace Labb2
                     Console.WriteLine("1. Ja");
                     Console.WriteLine("2. Nej");
                     anotherPerson = Convert.ToInt32(Console.ReadLine());
+                    people.Add(person1); 
                 }
+            }
 
-                people.Add(person1);
-                people.Add(person2);
-                
-                for (int i = 0; i < people.Count; i++)
+            for (int i = 0; i < people.Count; i++)
                 {
                     people[i].getPersonDetails();
                 }
-            }
         }
     }
 }

@@ -11,18 +11,29 @@ namespace Labb2
         public Person() {}
         public Person(string fullName, int age)
         {
-            setFullName(fullName);
-            setAge(age);
+            yourName = fullName;
+            yourAge = age;
             setGender();
         }
-        public void setFullName(string fullName)
+
+        public void setPersonDetails()
         {
+            Console.WriteLine("Skriv in namn");
+            string fullName = Console.ReadLine();
+            Console.WriteLine("Skriv in ålder");
+            int age = Convert.ToInt32(Console.ReadLine());
             yourName = fullName;
+            yourAge = age;
+            setGender();
         }
 
         public void getPersonDetails()
         {
             Console.WriteLine("{0} är {1} år ({2}).", yourName, yourAge, yourGender);
+        }
+        public void setFullName(string fullName)
+        {
+            yourName = fullName;
         }
 
         public void setAge(int age)
